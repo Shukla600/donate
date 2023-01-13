@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+  button {
+    padding: 9px 16px;
+    border: none;
+    background-color: red;
+}
+/*donate today start*/
+
+.donatesec{
+  margin: 50px 0px;
+}
+.donate_today{
+  width: 60%;
+  margin: 0 auto;
+}
+.donate_heading {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.donate_heading h6{
+margin-bottom: 10px;
+}
+.donate_heading p{
+  
+}
+.donate_text{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.dtext{
+ padding: 40px;
+  background-color: #ddd;
+  border: 2px solid #ddd;
+transition: .4s all ease-in-out;
+}
+.dtext:hover{
+  border: 2px solid red;
+}
+.dtext:hover p{
+ color:red;
+}
+.donate_btn{
+  text-align: center;
+  margin: 50px 0px;
+}
+.donate_btn p{
+margin-bottom: 10px;
+}
+.donate_btn button{
+  margin-top: 10px;
+}
+
+/*donate today start*/
+
+/*donate plan start*/
+.donateplansec{
+  margin: 50px 0px;
+}
+.donatplan{
+  width: 80%;
+  margin: 0 auto;
+}
+.donateplanbox{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.donateitem1,.donateitem2,.donateitem3{
+  width: 28%;
+  padding: 30px 20px;
+}
+.donateitem1{
+background-color: #a2e9d133;
+}
+.donateitem2{
+  background-color:#ffc0cb66;
+  }
+  .donateitem3{
+    background-color: #ffa50038;
+    }
+.donateitem1 img,.donateitem2 img,.donateitem3 img{
+  width: 20%;
+}
+/*donate plan end*/
+
+/*livessection start*/
+.livessec{
+  padding: 50px 0px;
+}
+.lives{
+  width: 80%;
+  margin: 0 auto;
+}
+.liveitem{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.livesbox1,.livesbox2{
+  width: 40%;
+}
+.livesbox2 img{
+  width: 80%;
+}
+/*livessection end*/
+
+/*suve section start*/
+.suve_sec{
+  padding: 50px 0px;
+}
+.suve{
+  width: 80%;
+  margin: 0 auto;
+}
+.suvetem{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.suvebox1,.suvebox2{
+  width: 40%;
+}
+.suvebox2 img{
+  width: 80%;
+}
+
+/*suve section end*/
+
+/*my updates start*/
+.update{
+  margin: 50px 0px;
+}
+.updatepart{
+  width: 60%;
+  margin: 0 auto;
+
+}
+.updateform{
+  background-color: #ffa50038;
+  padding: 70px 0px;
+}
+.updateform form{
+  text-align: center;
+}
+.updateform form input{
+  background-color: #ddd;
+    color: black;
+    padding: 10px 10px 10px 8px;
+    border: none;
+}
+.updateform form input[type=submit]{
+
+}
+/*my updates end*
+
+/*footer start*/
+footer{
+  background-color: black;
+  padding: 60px 0px;
+}
+.footer_text{
+text-align: center;
+}
+.footer_text h6{
+  color: red;
+  }
+  .footer_text p{
+    color: #fff;
+    }
+/*footer end*/
